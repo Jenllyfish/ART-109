@@ -1,0 +1,156 @@
+body {
+    background: #fffad4;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    margin-left: 8rem;
+    margin-right: 2rem;
+}
+
+.condiment-regular {
+  font-family: "Condiment", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:link {
+    color: #56666B;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #56666B;
+}
+a:hover {
+    text-decoration: none;
+    color: #872323;
+}
+a:active {
+    text-decoration: none;
+    color: #BB772D;
+}
+
+a.bigtext {
+  text-decoration: none;
+  color:#27333f;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color:#27333f;
+    font-family: Condiment, cursive;
+    padding-right: 10rem;
+}
+
+.subhead{
+    color:#566a6b;
+    font-family: Condiment, cursive;
+}
+
+h1 { 
+    margin-top: -1rem;
+    margin-bottom: -4rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    text-align: center;
+    font-size: 9.5rem; line-height: 1.5;  letter-spacing: .5rem;}
+h2 { 
+    margin-top: 2rem;
+    margin-bottom: -8rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+  font-weight: 600;
+  text-align: center;
+    font-size: 1.5rem; line-height: .7; letter-spacing: 0rem; }
+h3 { 
+  font-family: "Helvetica"; 
+  color: #56666B;
+  font-style: normal;
+  font-size: 2rem; 
+  margin-top: 9.5rem;
+  line-height: 2.5rem;  
+  letter-spacing: -.1rem; }
+h4 { 
+  font-family: 'Helvetica';
+    font-style: bold;
+  font-size: 1.75rem;
+  font-weight: lighter;
+  line-height: 1.35; 
+  letter-spacing: .125rem; 
+  margin-top: -1.5rem;}
+h5 { 
+  font-family: "Helvetica";
+  color:#27333f;
+  margin-top: 1rem;
+  margin-bottom: -9rem;
+  text-align: left;
+  font-size: 2.5rem; 
+  line-height: 1;  
+  letter-spacing: -.1rem; }
+h6 {  
+  display: center;
+  font-family: Condiment, cursive;
+  color: #56666B;
+  font-size: 3rem;  
+  letter-spacing: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem; }
+
+p{
+    font-family: "Helvetica"; 
+    color: #56666B;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1rem; line-height: 1.6;  letter-spacing: 0;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 0 auto;
+    margin-bottom: 2rem auto;
+    padding-right: 1.5rem;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  font-family: "Helvetica";
+  font-size: 1rem;
+  padding-right: 12rem;
+  
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item-grid {
+    flex: 1 1 33%;
+    padding: 1rem;
+}
+
+.img-flyers {
+  width: 30%;
+      max-width: 70rem;
+    margin-top: 1rem;
+  margin-left: .5rem;
+  margin-bottom: -.5rem;
+
+}
+
+.logo {
+      max-width: 20%;
+      max-height: 20%;
+}
+
+.footer {
+  padding: 3rem 3rem;
+}
