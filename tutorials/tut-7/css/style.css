@@ -1,0 +1,52 @@
+/*
+CSS RESETS
+*/
+
+
+/* Change box-sizing default to border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* Remove default spacing */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Respect user font settings */
+html {
+  font-size: 150%;
+  background-color: black;
+}
+
+h1 {
+    color: rgb(254, 253, 250);
+}
+
+/* Make images responsive */
+img {
+  max-width: 25%;
+  display: block;
+}
+
+.square2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+animation: myAnimation 5s infinite alternate;
+}
+
+@keyframes myAnimation {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
